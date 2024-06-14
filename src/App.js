@@ -1,14 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NavBar  from './components/NavBar';
+import Banner from './components/Banner';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
-      </header>
+      <NavBar />
+      <Banner />
     </div>
   );
 }
