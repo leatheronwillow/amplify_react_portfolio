@@ -51,7 +51,7 @@ function Banner() {
             <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle/></button>
           </Col>
           <Col xs={12} md={6} xl ={5}>
-            <img src={headerImage} alt="Header Image"/>
+            <img src={headerImage} alt="Header"/>
           </Col>
         </Row>
       </Container>

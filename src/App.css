@@ -301,6 +301,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /************ Skills Css ************/
+.item p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .skill {
   padding: 0 0 50px 0;
   position: relative;

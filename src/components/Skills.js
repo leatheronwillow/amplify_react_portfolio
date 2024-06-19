@@ -33,19 +33,19 @@ function Skills() {
               <p>Lorem Ipsum and whatnot isn't it</p>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
-                  <img src="" alt="image"/>
-                  <h5>Software Development</h5>
+                  <h5>Web App Development</h5>
+                  <p>
+                    Multiple full stack personal and freelance projects including apps for stock-trading
+                    , short-term rentals, invoicing and inventory management and talent-scouting.
+                  </p>
                 </div>
                 <div className="item">
-                  <img src="" alt="image"/>
                   <h5>Data Engineering</h5>
                 </div>
                 <div className="item">
-                  <img src="" alt="image"/>
                   <h5>Systems Engineering</h5>
                 </div>
                 <div className="item">
-                  <img src="" alt="image"/>
                   <h5>DevOps</h5>
                 </div>
               </Carousel>
