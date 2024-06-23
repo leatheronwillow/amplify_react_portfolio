@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/img/logo.svg';
+import motion_logo from '../assets/img/motion_logo.svg';
 import nav_icon1 from '../assets/img/nav_icon1.svg';
 import nav_icon2 from '../assets/img/nav_icon2.svg';
 import nav_icon3 from '../assets/img/nav_icon3.svg';
@@ -32,7 +32,7 @@ function NavBar() {
     <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
+          <img src={motion_logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
