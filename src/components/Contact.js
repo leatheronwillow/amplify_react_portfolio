@@ -53,7 +53,6 @@ function Contact() {
             <h2>
               Get In Touch
             </h2>
-          </Col>
           <form onSubmit={handleSubmit}>
             <Row>
               <Col sm={6} className="px-1">
@@ -105,6 +104,7 @@ function Contact() {
               }
             </Row>
           </form>
+          </Col>
         </Row>
       </Container>
     </section>

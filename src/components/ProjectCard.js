@@ -8,9 +8,12 @@ function ProjectCard(props) {
         <div className="project-text">
           <h3>{props.title}</h3>
           <p>{props.description}</p>
-          <p>{props.stack}</p>
-          <a href={props.github}>Github</a>
-          <a href={props.live}>Live</a>
+          <p><strong>Stack: </strong>{props.stack}</p>
+          <p>
+            <a href={props.github}>Github</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href={props.live}>Live</a>
+          </p>
         </div>
       </div>
     </Col>

@@ -30,7 +30,7 @@ function Skills() {
           <Col>
             <div className="skill-bx">
               <h2>Skills</h2>
-              <p>Lorem Ipsum and whatnot isn't it</p>
+              <p>Here are some of my skills and experiences</p>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
                   <h5>Web App Development</h5>
@@ -41,12 +41,28 @@ function Skills() {
                 </div>
                 <div className="item">
                   <h5>Data Engineering</h5>
+                  <p>
+                    Industrial experience with data wrangling, cleaning, and analysis using Python, Pandas, and SQL.
+                    Performed ETL (Extract, Transform, Load) operations on data from external APIs to the company's database
+                    via an ineternal API.
+                  </p>                
                 </div>
                 <div className="item">
-                  <h5>Systems Engineering</h5>
+                  <h5>Process Systems Engineering</h5>
+                  <p>
+                    Experience with multi physics software like COMSOL for reactor design,
+                    and UNISIM for process simulation and optimization.
+                    Designed and optimized processes for large-scale cell culture using MATLAB.
+                  </p>
                 </div>
                 <div className="item">
                   <h5>DevOps</h5>
+                  <p>
+                    Experience with CI/CD pipelines on industrial project.
+                    Deployed a full stack web app on a cloud server using Docker.
+                    Experience with Git for version control in a team environment.
+                    Experience with AWS Lambdas and products like S3 and Amplify. 
+                  </p>
                 </div>
               </Carousel>
             </div>

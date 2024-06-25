@@ -1,8 +1,9 @@
 import { Col, Container, Row } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
+import motion_logo from "../assets/img/motion_logo.svg";
 import nav_icon1 from '../assets/img/nav_icon1.svg';
 import nav_icon2 from '../assets/img/nav_icon2.svg';
 import nav_icon3 from '../assets/img/nav_icon3.svg';
+
 
 
 function Footer() {
@@ -10,8 +11,11 @@ function Footer() {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <Col sm={6}>
-            <img src={logo} alt="logo" />
+          <Col sm={5}>
+            <img src={motion_logo} alt="logo" />
+          </Col>
+          <Col sm={6} className="">
+            <p>Thank you for visiting</p>
           </Col>
           <Col sm={6} className="text-center text-sm-end">
             <div className="social-icon">

@@ -1,16 +1,16 @@
 import { Container, Col, Row, Tab, Nav } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
-import projectImage1 from '../assets/img/project-img1.png';
+import portfolio from '../assets/img/portfolio.png';
 
 function Projects() {
   const projects = [
     {
       title: "Portfolio",
-      description: "A single page platform to showcase my projects",
+      description: "A single page platform to showcase my projects.",
       stack: "React, Javascript, HTML, CSS (with Bootstrap), Github",
       github: "",
       live: "",
-      image: projectImage1
+      image: portfolio
     },
     {
       title: "Blueberries BnB",
@@ -52,7 +52,7 @@ function Projects() {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p> Lorm Ipsum Sdjalfa.sc,sm;asdcms;c </p>
+            <p> Here are some of my projects </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
