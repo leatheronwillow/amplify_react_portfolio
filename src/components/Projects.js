@@ -8,7 +8,7 @@ function Projects() {
       title: "Portfolio",
       description: "A single page platform to showcase my projects.",
       stack: "React, Javascript, HTML, CSS (with Bootstrap), Github",
-      github: "",
+      github: "https://github.com/leatheronwillow/amplify_react_portfolio",
       live: "",
       image: portfolio
     },
