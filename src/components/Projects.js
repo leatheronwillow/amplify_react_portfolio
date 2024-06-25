@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard';
 import portfolio from '../assets/img/portfolio.png';
 
 function Projects() {
-  const projects = [
+  const projectsTab1 = [
     {
       title: "Portfolio",
       description: "A single page platform to showcase my projects.",
@@ -28,6 +28,9 @@ function Projects() {
       live: "",
       image: "https://via.placeholder.com/150"
     },
+  ];
+
+  const projectsTab2 = [
     {
       title: "South Asian Cricket Academy",
       description: "A talent scouting app with an e-commerce section for cricket equipment.",
@@ -44,7 +47,7 @@ function Projects() {
       live: "",
       image: "https://via.placeholder.com/150"
     },
-  ]
+  ];
 
   return (
     <section className="project" id="project">
@@ -69,7 +72,7 @@ function Projects() {
                 <Tab.Pane eventKey="first">
                   <Row>
                     {
-                      projects.map((project, index) => {
+                      projectsTab1.map((project, index) => {
                         return (
                           <ProjectCard
                             key={index}
@@ -86,7 +89,23 @@ function Projects() {
                   </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                    Lorem Ipsum
+                <Row>
+                    {
+                      projectsTab2.map((project, index) => {
+                        return (
+                          <ProjectCard
+                            key={index}
+                            title={project.title}
+                            description={project.description}
+                            stack={project.stack}
+                            github={project.github}
+                            live={project.live}
+                            image={project.image}
+                          /> 
+                        )
+                      })
+                    }
+                  </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
                     Lorem Ipsum
