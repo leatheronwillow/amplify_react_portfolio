@@ -1,24 +1,25 @@
 import { Container, Col, Row, Tab, Nav } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import portfolio from '../assets/img/portfolio.png';
+import blueberries from '../assets/img/blueberries.png';
 
 function Projects() {
   const projectsTab1 = [
     {
       title: "Portfolio",
       description: "A single page platform to showcase my projects.",
-      stack: "React, Javascript, HTML, CSS (with Bootstrap), Github",
+      stack: "React, Javascript, HTML, CSS (with Bootstrap)",
       github: "https://github.com/leatheronwillow/amplify_react_portfolio",
-      live: "",
+      live: "https://main.d2v8l1h17ifpfw.amplifyapp.com/",
       image: portfolio
     },
     {
       title: "Blueberries BnB",
       description: "A short-term vacation rentals platform created in a team of 4.",
-      stack: "Flask, Jinja, PostgreSQL, Javascript, HTML, CSS (with Bootstrap), Github",
-      github: "",
-      live: "",
-      image: "https://via.placeholder.com/150"
+      stack: "Flask, Jinja, PostgreSQL, Javascript, HTML, CSS (with Bootstrap).",
+      github: "https://github.com/deesii/blueberriesbnb-phase-2",
+      live: "https://blueberriesbnb-phase-2.onrender.com/",
+      image: blueberries
     },
     {
       title: "Contrast",
