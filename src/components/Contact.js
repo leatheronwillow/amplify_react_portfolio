@@ -32,13 +32,15 @@ function Contact() {
       },
       body: JSON.stringify(formDetails),
     });
+    
     setButtonText("Send");
     let result = response.json();
+    console.log(result.code);
     setFormDetails(formInitialDetails);
-    if (result.code === 200) {
-      setStatus({ success: true, message: "Message Sent" });
+    if (result.code === 400) {
+      setStatus({ success: false, message: `Something went wrong. Please try again later` });
     } else {
-      setStatus({ success: false, message: "Something went wrong. Please try again later" });
+      setStatus({ success: true, message: "Message Sent" });
     }
   };
 

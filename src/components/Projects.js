@@ -2,6 +2,8 @@ import { Container, Col, Row, Tab, Nav } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
 import portfolio from '../assets/img/portfolio.png';
 import blueberries from '../assets/img/blueberries.png';
+import contrast from '../assets/img/contrast.png';
+import saca_vue from '../assets/img/saca_vue.png';
 
 function Projects() {
   const projectsTab1 = [
@@ -25,9 +27,10 @@ function Projects() {
       title: "Contrast",
       description: "An accounting and inventory management app for a printing company.",
       stack: "Flask, Jinja, SQLite3, Javascript, HTML, CSS (with Bootstrap), Github",
-      github: "",
-      live: "",
-      image: "https://via.placeholder.com/150"
+      github: "https://github.com/leatheronwillow/Contrast",
+      live: "https://contrast-okrz.onrender.com/",
+      image: contrast
+  
     },
   ];
 
@@ -38,7 +41,7 @@ function Projects() {
       stack: "Django, Vue3, SQLite3, Javascript, CSS (with Bulma), Github",
       github: "",
       live: "",
-      image: "https://via.placeholder.com/150"
+      image: saca_vue
     },
     {
       title: "Athlete Marketplace",
